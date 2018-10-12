@@ -1,0 +1,58 @@
+more epochs mean longer processing time and more accuracy
+epoch 2: 
+	loss: 1.944
+	acc: 0.315
+epoch 10:
+	loss: 1.912
+	acc: 0.291
+epoch 20:
+	loss: 1.844
+	acc: 0.369
+epoch 30:
+	loss: 1.861
+	acc: 0.338
+
+larger batch size means shorter processing time and more accuracy
+
+learning rate .1:
+	loss: 16.375
+	acc: 0.289
+learning rate .01:
+	loss: 1.820
+	acc: 0.366
+learning rate .001:
+	loss: 1.834
+	acc: 0.326
+learning rate .0001:
+	loss: 1.936
+	acc: 0.3032
+improvement until .001, then got worse	
+
+fully_connected 2:
+	loss: 1.802
+	acc: 0.3361
+fully_connected 3:
+	loss: 1.863
+	acc: 0.314
+fully_connected 4:
+	loss: 1.875
+	acc: 0.328
+fully_connected 5:
+	loss: 1.9
+	acc: 0.3202
+more fully_connected more loss but accuracy goes up and down...
+
+labels 10:
+	loss: 1.811
+	acc: 0.3328
+labels 5:
+	loss: 1.234
+	acc: 0.467
+labels 2:
+	loss: 0.475
+	acc: 0.710
+
+
+kept it at 5 labels, 25 epochs, batch size 30, 3 fully connected, .001 learning rate
+	loss: 1.19
+	acc: 0.507
